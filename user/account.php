@@ -24,7 +24,7 @@ ob_start();
     <div class="col-md-8 col-lg-6">
         <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
             <!-- Profile Header -->
-            <div class="card-header text-white p-4 text-center border-0" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+            <div class="card-header text-white p-4 text-center border-0" style="background: gradient(135deg, #667eea 0%, #764ba2 100%);">
                 <img src="<?= $profile_img ?>" class="rounded-circle mx-auto d-block mb-3 shadow" width="90" height="90" alt="Profile" style="object-fit: cover;">
                 <h4 class="fw-bold mb-1"><?= htmlspecialchars($user['full_name']) ?></h4>
                 <span class="badge bg-white text-primary rounded-pill px-3"><?= ucfirst($user['role']) ?></span>
